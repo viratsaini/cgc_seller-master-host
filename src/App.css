@@ -1,0 +1,42 @@
+.main{
+  min-height: 100vh;
+  height: 100%;
+}
+
+#main-comp{
+  min-height: 90vh;
+  height: 100%;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1050px) {
+  #main-comp{
+    min-height: 50vh;
+    height: 100%;
+    /* margin-top: 64px;
+    display: flex;
+    flex-direction: row; */
+  }
+
+  .main{
+    min-height: 100vh;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #main-comp{
+    min-height: 50vh;
+    height: 100%;
+    /* margin-top: 64px;
+    display: flex;
+    flex-direction: row; */
+  }
+
+  .main{
+    min-height: 50vh;
+    height: 100%;
+  }
+}

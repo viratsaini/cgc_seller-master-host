@@ -1,0 +1,37 @@
+.your-item-h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #3fa9f9;
+  margin-bottom: 20px;
+}
+
+.yi-sign {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.empty-youritem-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  text-align:center;
+}
+
+.empty-youritem-btn {
+  padding: 5px 20px;
+  background: #3fa9f9;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+}

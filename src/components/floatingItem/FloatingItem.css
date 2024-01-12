@@ -1,0 +1,31 @@
+.float-item {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 11px 11px;
+  background: #128C7E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 1000px;
+  cursor: pointer;
+  gap: 10px;
+  z-index: 100000;
+  font-size: 17px;
+}
+
+.flt-add-icon {
+  font-size: 25px;
+}
+
+@media (max-width: 750px) {
+  .float-item {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .flt-add-icon {
+    font-size: 30px;
+  }
+}
